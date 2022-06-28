@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/seg3125-p2-engine/static/css/main.55ac36ef.css",
+    "main.js": "/seg3125-p2-engine/static/js/main.d04db49d.js",
+    "static/js/787.427a5348.chunk.js": "/seg3125-p2-engine/static/js/787.427a5348.chunk.js",
+    "static/media/community.jpg": "/seg3125-p2-engine/static/media/community.c6ce4e71fce01ee149f9.jpg",
+    "static/media/code-yellow.jpg": "/seg3125-p2-engine/static/media/code-yellow.3209719faee992300c24.jpg",
+    "static/media/tools.jpg": "/seg3125-p2-engine/static/media/tools.a059c452980d0d8531a6.jpg",
+    "static/media/space.jpg": "/seg3125-p2-engine/static/media/space.bd1911f24252a4e04658.jpg",
+    "static/media/basketball.jpg": "/seg3125-p2-engine/static/media/basketball.3ea8cb097e78da20222c.jpg",
+    "static/media/question.jpg": "/seg3125-p2-engine/static/media/question.d2fe8cb47ad336203b46.jpg",
+    "static/media/discussion.jpg": "/seg3125-p2-engine/static/media/discussion.c05590cfa125ef4a399b.jpg",
+    "static/media/lightningbolt.jpg": "/seg3125-p2-engine/static/media/lightningbolt.8643c3a2ab5d4eb332a4.jpg",
+    "static/media/games.jpg": "/seg3125-p2-engine/static/media/games.e7f4b61908204ec06fcb.jpg",
+    "static/media/maze.jpg": "/seg3125-p2-engine/static/media/maze.5623cf913981da1ddf19.jpg",
+    "static/media/fps.jpg": "/seg3125-p2-engine/static/media/fps.ad2b5926cf81615c542a.jpg",
+    "static/media/platformer.png": "/seg3125-p2-engine/static/media/platformer.edcf8e03330a51d4e48d.png",
+    "static/media/testlogo.jpg": "/seg3125-p2-engine/static/media/testlogo.4df0285a1f4ebc6a1dce.jpg",
+    "static/media/63457-1-5.png": "/seg3125-p2-engine/static/media/63457-1-5.1ecfb61fe48ff7a9ce91.png",
+    "static/media/63457-3-5.png": "/seg3125-p2-engine/static/media/63457-3-5.04d1346db6c3948b4110.png",
+    "static/media/63457-1-1.png": "/seg3125-p2-engine/static/media/63457-1-1.cc9390a037e8af0ca493.png",
+    "static/media/63457-1-3.png": "/seg3125-p2-engine/static/media/63457-1-3.6cedaed88637a514f930.png",
+    "static/media/63457-3-1.png": "/seg3125-p2-engine/static/media/63457-3-1.4a2649b48fb94627f978.png",
+    "static/media/63457-3-3.png": "/seg3125-p2-engine/static/media/63457-3-3.e2b21fdbf433254d7a35.png",
+    "static/media/FOR-REAL.png": "/seg3125-p2-engine/static/media/FOR-REAL.0e1f63da4dd8ec6a9da4.png",
+    "index.html": "/seg3125-p2-engine/index.html",
+    "main.55ac36ef.css.map": "/seg3125-p2-engine/static/css/main.55ac36ef.css.map",
+    "main.d04db49d.js.map": "/seg3125-p2-engine/static/js/main.d04db49d.js.map",
+    "787.427a5348.chunk.js.map": "/seg3125-p2-engine/static/js/787.427a5348.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55ac36ef.css",
+    "static/js/main.d04db49d.js"
+  ]
+}
