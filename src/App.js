@@ -12,7 +12,7 @@ import CompletedSignUp from './pages/CompletedSignUp';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="seg3125-p2-engine/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -27,7 +27,7 @@ function App() {
           </Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
