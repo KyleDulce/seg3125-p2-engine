@@ -1,0 +1,87 @@
+.blackColor {
+    color: black
+}
+
+.blackBackground {
+    background-color: black
+}
+
+.whiteColor {
+    color: white
+}
+
+.whiteColorChildren > * {
+    color: white
+}
+
+.accent {
+    color: #FFDD00;
+}
+
+.accentBackground {
+    background-color: #FFDD00;
+}
+
+.accentBorder {
+    border-color: #FFDD00;
+}
+
+.accentOutlineButtonWhite {
+    border-color: #FFDD00;
+    border-width: 3px;
+    background-color: white;
+    color: black;
+}
+
+.accentOutlineButtonWhite:hover {
+    border-color: #FFDD00;
+    background-color: #FFDD00;
+    color: black;
+}
+
+.accentOutlineButtonWhite:focus {
+    border-color: #FFDD00;
+    background-color: #FFDD00;
+    color: black;
+}
+
+.accentOutlineButton {
+    border-color: #FFDD00;
+    border-width: 3px;
+    background-color: black;
+    color: white;
+}
+
+.accentOutlineButton:hover {
+    border-color: #FFDD00;
+    background-color: #FFDD00;
+    color: black;
+}
+
+.accentOutlineButton:focus {
+    border-color: #FFDD00;
+    background-color: #FFDD00;
+    color: black;
+}
+
+.accentSolidButton {
+    border-color: #FFDD00;
+    background-color: #FFDD00;
+    color: black;
+}
+
+.accentSolidButton:hover {
+    border-color: #bfa600;
+    background-color: #bfa600;
+    color: black;
+}
+
+.accentSolidButton:focus {
+    border-color: #bfa600;
+    background-color: #bfa600;
+    color: black;
+}
+
+.noBackground {
+    background-color: transparent;
+}
