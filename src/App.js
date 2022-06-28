@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Learn from './pages/Learn';
@@ -13,8 +13,8 @@ import CompletedSignUp from './pages/CompletedSignUp';
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="seg3125-p2-engine/" element={<Layout />}>
+      {/* <Switch>
+      <Route path="seg3125-p2-engine/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="learn" element={<Learn />} />
           <Route path="signin" element={<Login />} />
@@ -26,7 +26,11 @@ function App() {
             <Route path="post" element={<ForumPost />} />
           </Route>
         </Route>
-      </Routes>
+      </Switch>
+      <Routes>
+        
+      </Routes> */}
+      <Layout />
     </HashRouter>
   );
 }

@@ -1,9 +1,18 @@
 import { useState } from 'react'
 import { Navbar, Container, Nav, Button, NavDropdown, Form, Row, Col, Collapse } from 'react-bootstrap'
 import { PersonCircle, Search, BoxArrowInRight, List } from 'react-bootstrap-icons'
-import { Outlet } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import { centerText } from '../util/CommonCss';
 import logo from '../resources/FOR-REAL.png';
+
+import Home from './Home';
+import Learn from './Learn';
+import Login from './Login';
+import Signup from './Signup';
+import Product from './Product';
+import ForumHome from './/ForumHome';
+import ForumPost from './ForumPost';
+import CompletedSignUp from './CompletedSignUp';
 
 export default function Layout() {
 
@@ -31,14 +40,14 @@ export default function Layout() {
                     </Navbar.Toggle>
                     <Navbar.Collapse id="collapse-header">
                             <Nav className='childrenNormalText bigFontChild'>
-                                <Nav.Link className='mx-3' style={navText} href="/seg3125-p2-engine/product"><b>Product</b></Nav.Link>
-                                <Nav.Link className='mx-3' style={navText} href="/seg3125-p2-engine/learn"><b>Learn</b></Nav.Link>
-                                <Nav.Link className='mx-3' style={navText} href="/seg3125-p2-engine/forums"><b>Forums</b></Nav.Link>
+                                <Nav.Link className='mx-3' style={navText} href="/seg3125-p2-engine/#/product"><b>Product</b></Nav.Link>
+                                <Nav.Link className='mx-3' style={navText} href="/seg3125-p2-engine/#/learn"><b>Learn</b></Nav.Link>
+                                <Nav.Link className='mx-3' style={navText} href="/seg3125-p2-engine/#/forums"><b>Forums</b></Nav.Link>
                             </Nav>
                     </Navbar.Collapse>
                     <Navbar.Collapse className='justify-content-end' id="collapse-header">
                         <Nav>
-                            <Nav.Link style={navText} href="/seg3125-p2-engine/signup">
+                            <Nav.Link style={navText} href="/seg3125-p2-engine/#/signup">
                                 <Button className='normalText blackColor bigFont mx-2 accentSolidButton'>Get Started</Button>
                             </Nav.Link>
 
@@ -58,15 +67,25 @@ export default function Layout() {
                             )}
                                 
                             <NavDropdown className='my-auto childrenNormalText mx-2' style={centerText} align="end" title={<PersonCircle style={navText}/>}>
-                                <NavDropdown.Item href='/seg3125-p2-engine/signup'><PersonCircle />  Create an Account</NavDropdown.Item>
-                                <NavDropdown.Item href='/seg3125-p2-engine/signin'><BoxArrowInRight />  Sign in</NavDropdown.Item>
+                                <NavDropdown.Item href='/seg3125-p2-engine/#/signup'><PersonCircle />  Create an Account</NavDropdown.Item>
+                                <NavDropdown.Item href='/seg3125-p2-engine/#/signin'><BoxArrowInRight />  Sign in</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
 
-            <Outlet />
+            {/* <Outlet /> */}
+            <Routes>
+                    <Route exact path="/learn" element={<Learn />} />
+                    <Route exact path="/signin" element={<Login />} />
+                    <Route exact path="/signup" element={<Signup />} />
+                    <Route exact path="/completed-signup" element={<CompletedSignUp />} />
+                    <Route exact path="/product" element={<Product />} />
+                    <Route exact path="/forums/post" element={<ForumPost />} />
+                    <Route exact path="/forums" element={<ForumHome />} />
+                    <Route exact path="/" element={<Home />} />
+            </Routes>
 
             <div className='blackBackground py-3 px-3 whiteColorChildren childrenNormalText'>
             <hr className='whiteColor mx-auto mt-1 mb-3' style={{height: "3px", opacity: "100%", width: "80%"}} />
